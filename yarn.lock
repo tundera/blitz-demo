@@ -3243,7 +3243,7 @@ __metadata:
     lint-staged: ^11.0.0
     postcss: 8
     prettier: ^2.3.1
-    prettier-plugin-prisma: 0.7.0
+    prettier-plugin-prisma: ^0.11.0
     pretty-quick: ^3.1.0
     preview-email: 3.0.4
     prisma: ~2.20
@@ -11280,12 +11280,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prettier-plugin-prisma@npm:0.7.0":
-  version: 0.7.0
-  resolution: "prettier-plugin-prisma@npm:0.7.0"
+"prettier-plugin-prisma@npm:^0.11.0":
+  version: 0.11.0
+  resolution: "prettier-plugin-prisma@npm:0.11.0"
   peerDependencies:
     prettier: ">=2"
-  checksum: 926406913e3b0b654304c89a735c9051caa493b175da9802c6a32c1b0f47b3b71bbb9309205b607db76f8fec04a7b5926e935f4d55cd4315a6f3a6cfffe7d46d
+  checksum: de74c44b8edb9fce0b508b99ff4870a82ce07a69d6c4483cc666f5496a77d1491f35851dc7a4f09281d34b2c4a38e3f99bd43d06c5e2e4bc59d8eb63ec9ef693
   languageName: node
   linkType: hard
 

@@ -50,7 +50,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["lint-staged", "npm:11.0.0"],
             ["postcss", "npm:8.3.0"],
             ["prettier", "npm:2.3.1"],
-            ["prettier-plugin-prisma", "virtual:7b7ce3f2da2e2af6e02e3a5d0528bac927df21a103c7cb2bcf293864acc32516307e9798fb62ab9f229f50e59e72181b2b0f35a675272c5245507eaff5101f2f#npm:0.7.0"],
+            ["prettier-plugin-prisma", "virtual:7b7ce3f2da2e2af6e02e3a5d0528bac927df21a103c7cb2bcf293864acc32516307e9798fb62ab9f229f50e59e72181b2b0f35a675272c5245507eaff5101f2f#npm:0.11.0"],
             ["pretty-quick", "virtual:7b7ce3f2da2e2af6e02e3a5d0528bac927df21a103c7cb2bcf293864acc32516307e9798fb62ab9f229f50e59e72181b2b0f35a675272c5245507eaff5101f2f#npm:3.1.0"],
             ["preview-email", "npm:3.0.4"],
             ["prisma", "npm:2.20.1"],
@@ -4376,7 +4376,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["lint-staged", "npm:11.0.0"],
             ["postcss", "npm:8.3.0"],
             ["prettier", "npm:2.3.1"],
-            ["prettier-plugin-prisma", "virtual:7b7ce3f2da2e2af6e02e3a5d0528bac927df21a103c7cb2bcf293864acc32516307e9798fb62ab9f229f50e59e72181b2b0f35a675272c5245507eaff5101f2f#npm:0.7.0"],
+            ["prettier-plugin-prisma", "virtual:7b7ce3f2da2e2af6e02e3a5d0528bac927df21a103c7cb2bcf293864acc32516307e9798fb62ab9f229f50e59e72181b2b0f35a675272c5245507eaff5101f2f#npm:0.11.0"],
             ["pretty-quick", "virtual:7b7ce3f2da2e2af6e02e3a5d0528bac927df21a103c7cb2bcf293864acc32516307e9798fb62ab9f229f50e59e72181b2b0f35a675272c5245507eaff5101f2f#npm:3.1.0"],
             ["preview-email", "npm:3.0.4"],
             ["prisma", "npm:2.20.1"],
@@ -13445,17 +13445,17 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["prettier-plugin-prisma", [
-        ["npm:0.7.0", {
-          "packageLocation": "./.yarn/cache/prettier-plugin-prisma-npm-0.7.0-852074d382-926406913e.zip/node_modules/prettier-plugin-prisma/",
+        ["npm:0.11.0", {
+          "packageLocation": "./.yarn/cache/prettier-plugin-prisma-npm-0.11.0-32c6531911-de74c44b8e.zip/node_modules/prettier-plugin-prisma/",
           "packageDependencies": [
-            ["prettier-plugin-prisma", "npm:0.7.0"]
+            ["prettier-plugin-prisma", "npm:0.11.0"]
           ],
           "linkType": "SOFT",
         }],
-        ["virtual:7b7ce3f2da2e2af6e02e3a5d0528bac927df21a103c7cb2bcf293864acc32516307e9798fb62ab9f229f50e59e72181b2b0f35a675272c5245507eaff5101f2f#npm:0.7.0", {
-          "packageLocation": "./.yarn/__virtual__/prettier-plugin-prisma-virtual-98f35956d4/0/cache/prettier-plugin-prisma-npm-0.7.0-852074d382-926406913e.zip/node_modules/prettier-plugin-prisma/",
+        ["virtual:7b7ce3f2da2e2af6e02e3a5d0528bac927df21a103c7cb2bcf293864acc32516307e9798fb62ab9f229f50e59e72181b2b0f35a675272c5245507eaff5101f2f#npm:0.11.0", {
+          "packageLocation": "./.yarn/__virtual__/prettier-plugin-prisma-virtual-c54fd125bf/0/cache/prettier-plugin-prisma-npm-0.11.0-32c6531911-de74c44b8e.zip/node_modules/prettier-plugin-prisma/",
           "packageDependencies": [
-            ["prettier-plugin-prisma", "virtual:7b7ce3f2da2e2af6e02e3a5d0528bac927df21a103c7cb2bcf293864acc32516307e9798fb62ab9f229f50e59e72181b2b0f35a675272c5245507eaff5101f2f#npm:0.7.0"],
+            ["prettier-plugin-prisma", "virtual:7b7ce3f2da2e2af6e02e3a5d0528bac927df21a103c7cb2bcf293864acc32516307e9798fb62ab9f229f50e59e72181b2b0f35a675272c5245507eaff5101f2f#npm:0.11.0"],
             ["@types/prettier", "npm:2.2.3"],
             ["prettier", "npm:2.3.1"]
           ],
