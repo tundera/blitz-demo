@@ -7,7 +7,7 @@
     "build": "blitz build",
     "start": "blitz start",
     "studio": "blitz prisma studio",
-    "lint": "eslint --ignore-path .gitignore --ext .js,.ts,.tsx .",
+    "lint": "eslint --ignore-path .gitignore --ext .js,.ts,.tsx,.md,.mdx,json . && stylelint app/**/*.css",
     "test": "jest",
     "test:watch": "jest --watch",
     "prepare": "husky install"
@@ -15,13 +15,12 @@
   "prisma": {
     "schema": "db/schema.prisma"
   },
-  "prettier": {
-    "semi": false,
-    "printWidth": 100
-  },
   "lint-staged": {
-    "*.{js,ts,tsx}": [
+    "*.{js,ts,tsx,md,mdx,json}": [
       "eslint --fix"
+    ],
+    "*.css": [
+      "stylelint --fix app/**/*.css"
     ]
   },
   "dependencies": {
@@ -48,6 +47,7 @@
     "@types/stylelint": "^13",
     "@types/tailwindcss": "^2",
     "eslint": "^7.28.0",
+    "eslint-plugin-mdx": "^1.13.0",
     "husky": "^6.0.0",
     "lint-staged": "^11.0.0",
     "prettier": "^2.3.1",
