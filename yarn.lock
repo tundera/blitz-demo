@@ -1803,6 +1803,23 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/eslint@npm:^7":
+  version: 7.2.13
+  resolution: "@types/eslint@npm:7.2.13"
+  dependencies:
+    "@types/estree": "*"
+    "@types/json-schema": "*"
+  checksum: 6dac9f9d7d155c90a6eba104718e1adb43c3e4020ea75ab8f5094db8603617473a4ac6f7ddeb2c670822860b869a7e3871406a82425ec470965cdfc1f3dd3ad0
+  languageName: node
+  linkType: hard
+
+"@types/estree@npm:*":
+  version: 0.0.48
+  resolution: "@types/estree@npm:0.0.48"
+  checksum: 5062c9a65d3b4020df54741ec7e697ad516bb446a1f8823bd7990544cf6221ab6facf8dd7ad1c79753a5dde5ecb6a9bc4ffcaa1123dba1119566887732cc39fb
+  languageName: node
+  linkType: hard
+
 "@types/graceful-fs@npm:^4.1.2":
   version: 4.1.5
   resolution: "@types/graceful-fs@npm:4.1.5"
@@ -1874,7 +1891,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/json-schema@npm:^7.0.3, @types/json-schema@npm:^7.0.6":
+"@types/json-schema@npm:*, @types/json-schema@npm:^7.0.3, @types/json-schema@npm:^7.0.6":
   version: 7.0.7
   resolution: "@types/json-schema@npm:7.0.7"
   checksum: ea3b409235862d28122751158f4054e729e31ad844bd7b8b23868f38c518047b1c0e8e4e7cc293e02c31a2fb8cfc8a4506c2de2a745cf78b218e064fb8898cd4
@@ -1934,14 +1951,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/prettier@npm:^2.0.0":
+"@types/prettier@npm:^2, @types/prettier@npm:^2.0.0":
   version: 2.2.3
   resolution: "@types/prettier@npm:2.2.3"
   checksum: 78f1d731f9db92467596d3e2116efc402343a72ee69fa6444368317a2caf7d21ffe7d748637656ebef97ab65087867375089e743f0b9a378557cf979e5a9ac29
   languageName: node
   linkType: hard
 
-"@types/preview-email@npm:2.0.0":
+"@types/preview-email@npm:^2.0.0":
   version: 2.0.0
   resolution: "@types/preview-email@npm:2.0.0"
   dependencies:
@@ -1966,7 +1983,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:*, @types/react@npm:17.0.9, @types/react@npm:>=16.9.0":
+"@types/react@npm:*, @types/react@npm:>=16.9.0, @types/react@npm:^17.0.9":
   version: 17.0.9
   resolution: "@types/react@npm:17.0.9"
   dependencies:
@@ -3043,18 +3060,20 @@ __metadata:
   dependencies:
     "@hookform/resolvers": 2.5.2
     "@prisma/client": ~2.20
-    "@types/preview-email": 2.0.0
-    "@types/react": 17.0.9
+    "@types/eslint": ^7
+    "@types/prettier": ^2
+    "@types/preview-email": ^2.0.0
+    "@types/react": ^17.0.9
     "@types/tailwindcss": ^2
     autoprefixer: 10
     blitz: 0.36.4
-    eslint: 7.28.0
-    husky: 6.0.0
-    lint-staged: 10.5.4
+    eslint: ^7.28.0
+    husky: ^6.0.0
+    lint-staged: ^11.0.0
     postcss: 8
-    prettier: 2.3.1
+    prettier: ^2.3.1
     prettier-plugin-prisma: 0.7.0
-    pretty-quick: 3.1.0
+    pretty-quick: ^3.1.0
     preview-email: 3.0.4
     prisma: ~2.20
     react: 0.0.0-experimental-6a589ad71
@@ -3062,7 +3081,7 @@ __metadata:
     react-error-boundary: 3.1.3
     react-hook-form: 7.8.1
     tailwindcss: 2.1.2
-    typescript: ~4.2
+    typescript: ^4.3.2
     zod: 3.1.0
   languageName: unknown
   linkType: soft
@@ -3546,7 +3565,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"chalk@npm:^4.0.0, chalk@npm:^4.1.0":
+"chalk@npm:^4.0.0, chalk@npm:^4.1.0, chalk@npm:^4.1.1":
   version: 4.1.1
   resolution: "chalk@npm:4.1.1"
   dependencies:
@@ -3979,10 +3998,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"commander@npm:^6.0.0, commander@npm:^6.2.0":
+"commander@npm:^6.0.0":
   version: 6.2.1
   resolution: "commander@npm:6.2.1"
   checksum: d7090410c0de6bc5c67d3ca41c41760d6d268f3c799e530aafb73b7437d1826bbf0d2a3edac33f8b57cc9887b4a986dce307fa5557e109be40eadb7c43b21742
+  languageName: node
+  linkType: hard
+
+"commander@npm:^7.2.0":
+  version: 7.2.0
+  resolution: "commander@npm:7.2.0"
+  checksum: 53501cbeee61d5157546c0bef0fedb6cdfc763a882136284bed9a07225f09a14b82d2a84e7637edfd1a679fb35ed9502fd58ef1d091e6287f60d790147f68ddc
   languageName: node
   linkType: hard
 
@@ -4391,7 +4417,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"debug@npm:4, debug@npm:4.3.2, debug@npm:^4.0.0, debug@npm:^4.0.1, debug@npm:^4.1.0, debug@npm:^4.1.1, debug@npm:^4.2.0, debug@npm:^4.3.1":
+"debug@npm:4, debug@npm:4.3.2, debug@npm:^4.0.0, debug@npm:^4.0.1, debug@npm:^4.1.0, debug@npm:^4.1.1, debug@npm:^4.3.1":
   version: 4.3.2
   resolution: "debug@npm:4.3.2"
   dependencies:
@@ -5290,7 +5316,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint@npm:7.28.0":
+"eslint@npm:^7.28.0":
   version: 7.28.0
   resolution: "eslint@npm:7.28.0"
   dependencies:
@@ -5453,7 +5479,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"execa@npm:^4.0.0, execa@npm:^4.0.2, execa@npm:^4.1.0":
+"execa@npm:^4.0.0, execa@npm:^4.0.2":
   version: 4.1.0
   resolution: "execa@npm:4.1.0"
   dependencies:
@@ -6579,7 +6605,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"husky@npm:6.0.0":
+"husky@npm:^6.0.0":
   version: 6.0.0
   resolution: "husky@npm:6.0.0"
   bin:
@@ -8354,32 +8380,32 @@ __metadata:
   languageName: node
   linkType: hard
 
-"lint-staged@npm:10.5.4":
-  version: 10.5.4
-  resolution: "lint-staged@npm:10.5.4"
+"lint-staged@npm:^11.0.0":
+  version: 11.0.0
+  resolution: "lint-staged@npm:11.0.0"
   dependencies:
-    chalk: ^4.1.0
+    chalk: ^4.1.1
     cli-truncate: ^2.1.0
-    commander: ^6.2.0
+    commander: ^7.2.0
     cosmiconfig: ^7.0.0
-    debug: ^4.2.0
+    debug: ^4.3.1
     dedent: ^0.7.0
     enquirer: ^2.3.6
-    execa: ^4.1.0
-    listr2: ^3.2.2
-    log-symbols: ^4.0.0
-    micromatch: ^4.0.2
+    execa: ^5.0.0
+    listr2: ^3.8.2
+    log-symbols: ^4.1.0
+    micromatch: ^4.0.4
     normalize-path: ^3.0.0
     please-upgrade-node: ^3.2.0
     string-argv: 0.3.1
     stringify-object: ^3.3.0
   bin:
     lint-staged: bin/lint-staged.js
-  checksum: 4cc65f6c0a22dc091d0bbdfa6c15cd6e9b7d0d1e7603f5441bf9ac62f3a760fa36b0bda2db4c31b4084f28ba47cd4d0a176c3c3b314a97de8326e050d20b1635
+  checksum: 3be24b4a88799264bbb9baeedfc5be278d25aa85dc766c5328da23d5d92300c0a163563b455d530ca2a74510a161f17623e846e1aca81e44f389108274ad2acd
   languageName: node
   linkType: hard
 
-"listr2@npm:^3.2.2":
+"listr2@npm:^3.8.2":
   version: 3.9.0
   resolution: "listr2@npm:3.9.0"
   dependencies:
@@ -8627,7 +8653,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"log-symbols@npm:^4.0.0, log-symbols@npm:^4.1.0":
+"log-symbols@npm:^4.1.0":
   version: 4.1.0
   resolution: "log-symbols@npm:4.1.0"
   dependencies:
@@ -10475,7 +10501,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prettier@npm:2.3.1":
+"prettier@npm:^2.3.1":
   version: 2.3.1
   resolution: "prettier@npm:2.3.1"
   bin:
@@ -10515,7 +10541,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"pretty-quick@npm:3.1.0":
+"pretty-quick@npm:^3.1.0":
   version: 3.1.0
   resolution: "pretty-quick@npm:3.1.0"
   dependencies:
@@ -13098,23 +13124,23 @@ resolve@^2.0.0-next.3:
   languageName: node
   linkType: hard
 
-"typescript@patch:typescript@~4.2#~builtin<compat/typescript>":
-  version: 4.2.4
-  resolution: "typescript@patch:typescript@npm%3A4.2.4#~builtin<compat/typescript>::version=4.2.4&hash=d8b4e7"
+typescript@^4.3.2:
+  version: 4.3.2
+  resolution: "typescript@npm:4.3.2"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: 3d8ac56cd91f6f60e69aff212cb3601c8affd8dd7b3fac115b836b7d59ab8c7b21778635f07971cbcb6035019df1abefe3047c1d46f3d42d087ceb0552af0206
+  checksum: c2a86fa03ce03b255adc13ccd70a55173ca6539ae12114feca59f34a4e9bb69f14fb7cd5adc6c2416e568cff05c870b89d1366768ec55fce04fbdffb429a1cee
   languageName: node
   linkType: hard
 
-typescript@~4.2:
-  version: 4.2.4
-  resolution: "typescript@npm:4.2.4"
+"typescript@patch:typescript@^4.3.2#~builtin<compat/typescript>":
+  version: 4.3.2
+  resolution: "typescript@patch:typescript@npm%3A4.3.2#~builtin<compat/typescript>::version=4.3.2&hash=d8b4e7"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: 89c397df192f239359ad798b96d8e8d552e12c0c189ac5676cec4c20c410d6eec636b8e59a88f2aef0a56d961a9678d99c400099be9b7cae2f7b062eb4b7b171
+  checksum: 3d3dec06ba6e5b05caa292355712ed9db813fa1c2377630b1f24b42e5ee8957f0bcdd5efd1500c970a11a6f684897f5728f5542ac822932227159a0611499a5e
   languageName: node
   linkType: hard
 
