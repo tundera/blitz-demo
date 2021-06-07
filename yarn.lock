@@ -1901,7 +1901,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/eslint@npm:^7":
+"@types/eslint@npm:^7.2.13":
   version: 7.2.13
   resolution: "@types/eslint@npm:7.2.13"
   dependencies:
@@ -2065,7 +2065,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/prettier@npm:^2, @types/prettier@npm:^2.0.0":
+"@types/prettier@npm:^2.0.0, @types/prettier@npm:^2.2.3":
   version: 2.2.3
   resolution: "@types/prettier@npm:2.2.3"
   checksum: 78f1d731f9db92467596d3e2116efc402343a72ee69fa6444368317a2caf7d21ffe7d748637656ebef97ab65087867375089e743f0b9a378557cf979e5a9ac29
@@ -2147,7 +2147,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/stylelint@npm:^13":
+"@types/stylelint@npm:^13.13.0":
   version: 13.13.0
   resolution: "@types/stylelint@npm:13.13.0"
   dependencies:
@@ -2157,7 +2157,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/tailwindcss@npm:^2":
+"@types/tailwindcss@npm:^2.0.5":
   version: 2.0.5
   resolution: "@types/tailwindcss@npm:2.0.5"
   checksum: 8e491746fc2528e1a22b15fe311c14bc684322696d96dafa54ef0ebe643b064a040326e49bd4b7a230ac1a6e604900955118bbf38b72ebfac6d6a5ea86f669e2
@@ -2919,7 +2919,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"autoprefixer@npm:10":
+"autoprefixer@npm:10.2.6":
   version: 10.2.6
   resolution: "autoprefixer@npm:10.2.6"
   dependencies:
@@ -3229,19 +3229,19 @@ __metadata:
   dependencies:
     "@hookform/resolvers": 2.5.2
     "@prisma/client": ~2.20
-    "@types/eslint": ^7
-    "@types/prettier": ^2
+    "@types/eslint": ^7.2.13
+    "@types/prettier": ^2.2.3
     "@types/preview-email": ^2.0.0
     "@types/react": ^17.0.9
-    "@types/stylelint": ^13
-    "@types/tailwindcss": ^2
-    autoprefixer: 10
+    "@types/stylelint": ^13.13.0
+    "@types/tailwindcss": ^2.0.5
+    autoprefixer: 10.2.6
     blitz: ^0.36.4
     eslint: ^7.28.0
     eslint-plugin-mdx: ^1.13.0
     husky: ^6.0.0
     lint-staged: ^11.0.0
-    postcss: 8
+    postcss: 8.3.0
     prettier: ^2.3.1
     prettier-plugin-prisma: ^0.11.0
     pretty-quick: ^3.1.0
@@ -3256,8 +3256,8 @@ __metadata:
     stylelint-config-recommended: ^5.0.0
     stylelint-config-standard: ^22.0.0
     stylelint-prettier: ^1.2.0
-    tailwindcss: 2.1.2
-    typescript: ^4.3.2
+    tailwindcss: 2.1.4
+    typescript: 4.2.3
     zod: 3.1.0
   languageName: unknown
   linkType: soft
@@ -11224,17 +11224,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss@npm:8, postcss@npm:^8.1.6, postcss@npm:^8.2.1":
-  version: 8.3.0
-  resolution: "postcss@npm:8.3.0"
-  dependencies:
-    colorette: ^1.2.2
-    nanoid: ^3.1.23
-    source-map-js: ^0.6.2
-  checksum: 7786df62a605e6fc9380c1ee1e5ed177fbcdb3f3427ac6096ee0dbd9d80bdb8627d2e528d38d6f0fe850bb5668d4d46923eaf65dfd146e9b51fe770bf140d0ef
-  languageName: node
-  linkType: hard
-
 "postcss@npm:8.2.13":
   version: 8.2.13
   resolution: "postcss@npm:8.2.13"
@@ -11243,6 +11232,17 @@ __metadata:
     nanoid: ^3.1.22
     source-map: ^0.6.1
   checksum: 1f4a4d85c220d90d11486d0a21a0549dff91e52b8857957c797feb408b31f929b142d0b7ab029ec81bb5a48b0e8605ba716d674571fa98962737c90164d64648
+  languageName: node
+  linkType: hard
+
+"postcss@npm:8.3.0, postcss@npm:^8.1.6, postcss@npm:^8.2.1":
+  version: 8.3.0
+  resolution: "postcss@npm:8.3.0"
+  dependencies:
+    colorette: ^1.2.2
+    nanoid: ^3.1.23
+    source-map-js: ^0.6.2
+  checksum: 7786df62a605e6fc9380c1ee1e5ed177fbcdb3f3427ac6096ee0dbd9d80bdb8627d2e528d38d6f0fe850bb5668d4d46923eaf65dfd146e9b51fe770bf140d0ef
   languageName: node
   linkType: hard
 
@@ -13609,9 +13609,9 @@ resolve@^2.0.0-next.3:
   languageName: node
   linkType: hard
 
-"tailwindcss@npm:2.1.2":
-  version: 2.1.2
-  resolution: "tailwindcss@npm:2.1.2"
+"tailwindcss@npm:2.1.4":
+  version: 2.1.4
+  resolution: "tailwindcss@npm:2.1.4"
   dependencies:
     "@fullhuman/postcss-purgecss": ^3.1.3
     bytes: ^3.0.0
@@ -13646,7 +13646,7 @@ resolve@^2.0.0-next.3:
   bin:
     tailwind: lib/cli.js
     tailwindcss: lib/cli.js
-  checksum: 5018c2cfed5809c0159b28f5639b3199f98c4b3ecdf806f6fa31c1f223552933466cd0b6788f274ab0f530f35577de5f3c3069de8c07d24c5ff758583c545232
+  checksum: 5723cf3327be7d2e8d45c89d2228af0fcb93d34f4b4bab7fa60614e320f4cf8902e8bd32e8829943818b81147ce3795f012a6c0fe92585f68820e4a5dc59e671
   languageName: node
   linkType: hard
 
@@ -14216,23 +14216,23 @@ resolve@^2.0.0-next.3:
   languageName: node
   linkType: hard
 
-typescript@^4.3.2:
-  version: 4.3.2
-  resolution: "typescript@npm:4.3.2"
+typescript@4.2.3:
+  version: 4.2.3
+  resolution: "typescript@npm:4.2.3"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: c2a86fa03ce03b255adc13ccd70a55173ca6539ae12114feca59f34a4e9bb69f14fb7cd5adc6c2416e568cff05c870b89d1366768ec55fce04fbdffb429a1cee
+  checksum: b4a2020c021211184ac15caf59936b2089c13e79685f340a31aaa839c9de2f73b44a5e3757292de6cdad2ed967aef80d4592161b814cc29c0570f261850c4bca
   languageName: node
   linkType: hard
 
-"typescript@patch:typescript@^4.3.2#~builtin<compat/typescript>":
-  version: 4.3.2
-  resolution: "typescript@patch:typescript@npm%3A4.3.2#~builtin<compat/typescript>::version=4.3.2&hash=d8b4e7"
+"typescript@patch:typescript@4.2.3#~builtin<compat/typescript>":
+  version: 4.2.3
+  resolution: "typescript@patch:typescript@npm%3A4.2.3#~builtin<compat/typescript>::version=4.2.3&hash=d8b4e7"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: 3d3dec06ba6e5b05caa292355712ed9db813fa1c2377630b1f24b42e5ee8957f0bcdd5efd1500c970a11a6f684897f5728f5542ac822932227159a0611499a5e
+  checksum: f24cd922182bb29e1849fa72dffc25ff37f2177646b5526100e8638baf69e5498969e2364ae1a1deba8e74d0d101c1a91b73e6b5d3d9a3c8674c7ac95b3f67cd
   languageName: node
   linkType: hard
 
