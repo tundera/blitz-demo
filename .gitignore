@@ -21,6 +21,7 @@ blitz-log.log
 
 # misc
 .DS_Store
+wallaby.js
 
 # local env files
 .env.local
