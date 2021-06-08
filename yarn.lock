@@ -2184,6 +2184,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/htmlescape@npm:^1":
+  version: 1.1.1
+  resolution: "@types/htmlescape@npm:1.1.1"
+  checksum: 5b28934190ca95db57134d12973b37b96de98fab0b69393749448aa00ec244df9d9e4722bea2292010df6c81008e55cd50ff85ebe36ab9a1e80908396b23341b
+  languageName: node
+  linkType: hard
+
 "@types/http-assert@npm:*":
   version: 1.5.1
   resolution: "@types/http-assert@npm:1.5.1"
@@ -3821,6 +3828,7 @@ __metadata:
     "@hookform/resolvers": 2.5.2
     "@prisma/client": ~2.20
     "@types/eslint": ^7.2.13
+    "@types/htmlescape": ^1
     "@types/prettier": ^2.2.3
     "@types/preview-email": ^2.0.0
     "@types/react": ^17.0.9
@@ -3832,6 +3840,7 @@ __metadata:
     eslint: ^7.28.0
     eslint-plugin-mdx: ^1.13.0
     graphql: 15
+    htmlescape: ^1.1.1
     husky: ^6.0.0
     lint-staged: ^11.0.0
     nexus: 1
